@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de christian garcia, desarrollador web frontend especializado en aplicaciones modernas, responsivas y accesibles.">
+  <title>Portafolio Profesional | christian garcia</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- CDN Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-offset="70" tabindex="0">
+
+  <a class="skip-link" href="#sobre-mi">Saltar al contenido principal</a>
+
+  <!-- Navegación Funcional Responsiva -->
+  <header class="sticky-top">
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-primary" href="#sobre-mi">christian garcia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar menú de navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sobre mí (Hero Section) -->
+    <!-- Sobre mí (Hero Section) -->
+    <section id="sobre-mi" class="py-5 bg-light border-bottom">
+      <div class="container py-4">
+        <div class="row align-items-center gy-4">
+          <div class="col-12 col-md-4 text-center">
+            <img src="foto-perfil.jpg" alt="Fotografía profesional de christian garcia" class="img-fluid shadow profile-img"
+                 onerror="this.replaceWith(Object.assign(document.createElement('div'), {className: 'avatar-placeholder', textContent: 'CG', role: 'img', ariaLabel: 'Fotografía profesional de christian garcia'}))">
+          </div>
+          <div class="col-12 col-md-8 text-center text-md-start">
+            <h1 class="display-5 fw-bold text-dark">Hola, soy <span class="text-primary">christian garcia</span></h1>
+            <p class="lead text-secondary">Estudiante en constante aprendizaje y apasionado por la tecnología. Cuento con experiencia práctica en mantenimiento, revisión y reparación de equipos de cómputo y telefonía celular, además de conocimientos en redes digitales y bases de CCNA.</p>
+            <p class="text-secondary">Actualmente me encuentro ampliando mis competencias en desarrollo web frontend y fortaleciendo mi formación con la meta de desarrollarme profesionalmente en las áreas de <strong>Programación</strong>, <strong>Aseguramiento de Calidad (QA)</strong> y <strong>Redes</strong>.</p>
+            <div class="d-flex gap-2 justify-content-center justify-content-md-start mt-3">
+              <a href="#proyectos" class="btn btn-primary btn-lg">Ver Proyectos</a>
+              <a href="#contacto" class="btn btn-outline-dark btn-lg">Contactar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Proyectos -->
+    <section id="proyectos" class="py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-4">Proyectos Destacados</h2>
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100 shadow-sm border-0">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h5 fw-bold">Sitio Web Personal y Portafolio</h3>
+                <p class="card-text text-muted flex-grow-1">Diseño e implementación de mi portafolio profesional utilizando estándares modernos de desarrollo, responsividad y accesibilidad.</p>
+                <div class="mb-3">
+                  <span class="badge bg-primary">HTML5</span>
+                  <span class="badge bg-secondary">Bootstrap 5</span>
+                  <span class="badge bg-dark">JavaScript</span>
+                </div>
+                <a href="#sobre-mi" class="btn btn-outline-primary mt-auto" aria-label="Ver más detalles sobre el sitio web personal">Ver Detalles</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100 shadow-sm border-0">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h5 fw-bold">Diagnóstico y Mantenimiento de Hardware</h3>
+                <p class="card-text text-muted flex-grow-1">Servicio técnico preventivo y correctivo para computadoras y dispositivos móviles, optimización de sistema y sustitución de componentes.</p>
+                <div class="mb-3">
+                  <span class="badge bg-info text-dark">Soporte Técnico</span>
+                  <span class="badge bg-secondary">Hardware</span>
+                  <span class="badge bg-dark">Móviles</span>
+                </div>
+                <a href="#contacto" class="btn btn-outline-primary mt-auto" aria-label="Contactar para servicio de diagnóstico y mantenimiento">Ver Detalles</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">Habilidades</h2>
+        <div class="row g-4">
+          <!-- Habilidades Técnicas -->
+          <div class="col-12 col-md-6">
+            <div class="card p-4 h-100 shadow-sm border-0">
+              <h3 class="h4 fw-bold text-primary mb-3"><i class="bi bi-tools me-2" aria-hidden="true"></i>Técnicas y Herramientas</h3>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent">Mantenimiento preventivo, correctivo y revisión de equipos de cómputo</li>
+                <li class="list-group-item bg-transparent">Reparación y diagnóstico de teléfonos celulares y dispositivos móviles</li>
+                <li class="list-group-item bg-transparent">Redes digitales y fundamentos de Cisco CCNA</li>
+                <li class="list-group-item bg-transparent">Desarrollo Web en proceso: HTML5, CSS3 & Bootstrap 5.3</li>
+                <li class="list-group-item bg-transparent">Fundamentos de programación en JavaScript y bases de pruebas/QA</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Habilidades Blandas -->
+          <div class="col-12 col-md-6">
+            <div class="card p-4 h-100 shadow-sm border-0">
+              <h3 class="h4 fw-bold text-primary mb-3"><i class="bi bi-people-fill me-2" aria-hidden="true"></i>Habilidades Blandas</h3>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent">Diagnóstico analítico y resolución de problemas</li>
+                <li class="list-group-item bg-transparent">Atención al cliente y comunicación asertiva</li>
+                <li class="list-group-item bg-transparent">Trabajo en equipo y disposición para aprender continuamente</li>
+                <li class="list-group-item bg-transparent">Adaptabilidad y organización técnica</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-4">Contacto</h2>
+        <p class="text-center text-muted mb-5">¿Tienes alguna consulta o necesitas soporte técnico / proyectos web? ¡Escríbeme!</p>
+        <div class="row justify-content-center g-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <a href="mailto:sunhey7.cgc@gmail.com" class="text-decoration-none">
+              <div class="card p-4 text-center shadow-sm border-0 contact-card">
+                <i class="bi bi-envelope-fill display-5 text-primary mb-2" aria-hidden="true"></i>
+                <h3 class="h5 fw-bold text-dark">Correo Electrónico</h3>
+                <p class="text-muted m-0">sunhey7.cgc@gmail.com</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <a href="tel:+522383484444" class="text-decoration-none">
+              <div class="card p-4 text-center shadow-sm border-0 contact-card">
+                <i class="bi bi-telephone-fill display-5 text-primary mb-2" aria-hidden="true"></i>
+                <h3 class="h5 fw-bold text-dark">Teléfono</h3>
+                <p class="text-muted m-0">+52 2383484444</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <a href="https://linkedin.com/in/tuperfil" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+              <div class="card p-4 text-center shadow-sm border-0 contact-card">
+                <i class="bi bi-linkedin display-5 text-primary mb-2" aria-hidden="true"></i>
+                <h3 class="h5 fw-bold text-dark">LinkedIn</h3>
+                <p class="text-muted m-0">linkedin.com/in/tuperfil</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4 bg-dark text-white text-center">
+    <div class="container">
+      <p class="m-0">&copy; 2026 christian garcia. Desarrollado con Bootstrap 5.3 y JavaScript.</p>
+    </div>
+  </footer>
+
+  <!-- CDN Bootstrap 5.3 JS (con Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="origin"></script>
+
+  <!-- JavaScript Personalizado -->
+  <script src="script.js"></script>
+</body>
+</html>
